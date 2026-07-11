@@ -1,0 +1,9 @@
+# Local environment and generated MinIO credentials
+.env
+.env.*
+!.env.example
+.minio.application.env
+
+# Local MinIO data and administrative runtime files
+minio-data/
+.minio/
